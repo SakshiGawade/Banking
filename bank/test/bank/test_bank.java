@@ -5,7 +5,6 @@
  */
 package bank;
 
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -14,12 +13,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * 
+ *
  * @author Shriya
  */
 public class test_bank {
-        
-        Amount a;
+     Amount a;
     
     public test_bank() {
         float amt=10000;
@@ -42,7 +40,6 @@ public class test_bank {
     public void tearDown() {
     }
 
-    
     @Test
      public void test_deposit() {
       assertEquals(12500,a.deposit(2500));
