@@ -45,7 +45,7 @@ public class test_bank {
     
     @Test
      public void test_deposit() {
-          assertEquals(12500,a.deposit(2500));
+      assertEquals(12500,a.deposit(2500));
           assertEquals(13500,a.deposit(1000));
           assertEquals(14000,a.deposit(500));
          
